@@ -2,7 +2,7 @@ import React, { createContext, useState } from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 
-export const BASE_URL="http://localhost:4000/api/v1"
+export const BASE_URL="https://jobzee-backend-1.onrender.com/api/v1"
 
 export const Context = createContext({
   isAuthorized: false,
